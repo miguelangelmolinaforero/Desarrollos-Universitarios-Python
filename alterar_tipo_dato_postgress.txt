@@ -1,0 +1,1 @@
+alter table indice add foreign key (fk_nom_pais) references pais(nom_pais)

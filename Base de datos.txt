@@ -1,0 +1,123 @@
+CREATE TABLE CLIENTES (
+    cod_cliente number NOT NULL,
+    nombre_cliente varchar2 (20) NULL,
+    apellido_cliente varchar2 (20) NULL,
+    edad_cliente number NULL,
+    telefono_cliente number NULL,
+    direccion_cliente nvarchar2 (50),
+    CONSTRAINT PK_ccliente PRIMARY KEY (cod_cliente)
+)
+
+CREATE TABLE PRODUCTO (
+    cod_producto number NOT NULL,
+    nombre_producto varchar2 (20) NULL,
+    descripcion_prod varchar2 (60) NULL,
+    tipo_prod number NULL,
+    precio_prod float (12) NULL,
+    CONSTRAINT PK_cproducto PRIMARY KEY (cod_producto)
+)
+
+CREATE TABLE PEDIDOS(
+    cod_pedido number NOT NULL,
+    fecha_pedido date NULL,
+    cantidad_pedido number NULL,
+    cod_cliente1 number NULL,
+    cod_producto1 number NULL,
+    CONSTRAINT PK_cpedido PRIMARY KEY (cod_pedido)
+)
+
+ALTER TABLE PEDIDOS
+ADD CONSTRAINT FK_ccliente1 
+FOREIGN KEY (cod_cliente1) 
+REFERENCES CLIENTES (cod_cliente)
+
+ALTER TABLE PEDIDOS
+ADD CONSTRAINT FK_cpedido1 
+FOREIGN KEY (cod_pedido1) 
+REFERENCES CLIENTES (cod_pedido)
+
+
+DESCRIBE PEDIDOS;
+
+DESCRIBE PRODUCTOS;
+
+DESCRIBE CLIENTES;
+
+INSERT INTO CLIENTES (cod_cliente, nombre_cliente, apellido_cliente, edad_cliente, telefono_cliente, direccion_cliente) 
+VALUES 
+(1, 'Juan', 'Rodriguez', 18, 1241241, 'KR 2 Este 35-10'),
+(2, 'Juana', 'Dominguez', 20, 1234124, 'KR 5 Este 35-10'),
+(3, 'Rodrigo', 'Ramirez', 18, 3464345, 'Calle 2 Este 35-10'),
+(4, 'Sebastian', 'Lopez', 26, 3453533, 'KR 12 Este 35-10'),
+(5, 'Valentina', 'Obrador', 18, 5525652, 'Calle 2 35-10'),
+(6, 'Keren', 'Rojas', 23, 3345325, 'KR 8 35-10'),
+(7, 'Karen', 'Cardenas', 18, 5686588, 'KR 132 35-10'),
+(8, 'Jimena', 'Molina', 18, 54636643, 'Calle 123 35-10'),
+(9, 'Juan', 'Forero', 23, 6786868, 'KR 23 Este 35-10'),
+(10, 'Nicolás', 'Rodriguez', 18, 7897998, 'Transversal 74 Este 35-10'),
+(11, 'Alberto', 'Barajas', 25, 8909808, 'Calle 72 35-10'),
+(12, 'Simon', 'Torres', 25, 5646466, 'Calle 80 35-10'),
+(13, 'Jeison', 'Berrío', 18, 9807975, 'Calle 92 35-10'),
+(14, 'James', 'Rodriguez', 18, 4953958, 'KR 27 35-10'),
+(15, 'Juan', 'Quitero', 27, 38975339, 'Calle 100 35-10'),
+(16, 'Breiner', 'Monsalve', 26, 3487358, 'KR 68 35-10'),
+(17, 'Lina', 'Ávila', 18, 3487545, 'KR 86 35-10'),
+(18, 'Andrea', 'Benitez', 19, 2342445, 'KR 234 35-10'),
+(19, 'Martin', 'Rodriguez', 18, 2352535, 'Calle 245 7-10'),
+(20, 'Pablo', 'Jimenez', 19, 9948394, 'KR 56 35-10');
+
+
+INSERT INTO PRODUCTO (cod_producto, nombre_producto, descripcion_prod, tipo_prod, precio_prod)
+VALUES
+(1, 'producto 1', 'descripcion 1', 'tipo 1', 80000),
+(2, 'producto 2', 'descripcion 2', 'tipo 2', 2640000),
+(3, 'producto 3', 'descripcion 3', 'tipo 3', 250000),
+(4, 'producto 4', 'descripcion 4', 'tipo 4', 560000),
+(5, 'producto 5', 'descripcion 5', 'tipo 5', 205600),
+(6, 'producto 6', 'descripcion 6', 'tipo 6', 560000),
+(7, 'producto 7', 'descripcion 7', 'tipo 7', 670000),
+(8, 'producto 8', 'descripcion 8', 'tipo 8', 230000),
+(9, 'producto 9', 'descripcion 9', 'tipo 9', 204200),
+(10, 'producto 10', 'descripcion 10', 'tipo 10', 120000),
+(11, 'producto 11', 'descripcion 11', 'tipo 11', 234000),
+(12, 'producto 12', 'descripcion 12', 'tipo 12', 233400),
+(13, 'producto 13', 'descripcion 13', 'tipo 13', 20300),
+(14, 'producto 14', 'descripcion 14', 'tipo 14', 24400),
+(15, 'producto 15', 'descripcion 15', 'tipo 15', 234000),
+(16, 'producto 16', 'descripcion 16', 'tipo 16', 340000),
+(17, 'producto 17', 'descripcion 17', 'tipo 17', 30000),
+(18, 'producto 18', 'descripcion 18', 'tipo 18', 50000),
+(19, 'producto 19', 'descripcion 19', 'tipo 19', 60000),
+(20, 'producto 20', 'descripcion 20', 'tipo 20', 50000)
+
+
+INSERT INTO PEDIDOS (cod_pedido, fecha_pedido, cantidad_pedido)
+VALUES
+(1, '01/01/20', 10),
+(2, '02/01/20', 10),
+(3, '03/01/20', 10),
+(4, '04/01/20', 10),
+(5, '05/01/20', 10),
+(6, '06/01/20', 10),
+(7, '07/01/20', 10),
+(8, '08/01/20', 10),
+(9, '09/01/20', 10),
+(10, '10/01/20', 10),
+(11, '11/01/20', 10),
+(12, '12/01/20', 10),
+(13, '13/01/20', 10),
+(14, '14/01/20', 10),
+(15, '15/01/20', 10),
+(16, '16/01/20', 10),
+(17, '17/01/20', 10),
+(18, '18/01/20', 10),
+(19, '19/01/20', 10),
+(20, '10/01/20', 10)
+
+INSERT ALL
+	INTO NOMBRETABLA (COLUMNA1,COLUMNA2) VALUES ('DATO','DATO')
+	INTO NOMBRETABLA (COLUMNA1,COLUMNA2) VALUES ('DATO','DATO')
+	INTO NOMBRETABLA (COLUMNA1,COLUMNA2) VALUES ('DATO','DATO')
+	INTO NOMBRETABLA (COLUMNA1,COLUMNA2) VALUES ('DATO','DATO')
+SELECT * FROM dual
+
