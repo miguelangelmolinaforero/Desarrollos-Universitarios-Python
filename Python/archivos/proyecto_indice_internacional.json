@@ -1,0 +1,73 @@
+{
+    "datos_internacionales": [{
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "Grupo BMW",
+            "valor_indice": "340.7"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "Grupo BMW",
+            "valor_indice": "25.28"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "Grupo BMW",
+            "valor_indice": "463.79"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "Grupo BMW",
+            "valor_indice": "294.7"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "Grupo BMW",
+            "valor_indice": "293.3"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "397.608"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "112.663"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "109.339"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "69.962"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "69.025"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "56.208"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "51.899"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "49.348"
+        },
+        {
+            "fecha_indice": "19-10-2020",
+            "nom_empresa": "BYMA",
+            "valor_indice": "47.371"
+        }
+    ]
+}

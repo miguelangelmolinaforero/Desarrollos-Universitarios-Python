@@ -1,0 +1,83 @@
+{
+    "datos_nacionales": [{
+            "fecha_indice": "16-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "116601"
+        },
+        {
+            "fecha_indice": "15-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "0"
+        },
+        {
+            "fecha_indice": "14-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "0"
+        },
+        {
+            "fecha_indice": "13-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "117072"
+        },
+        {
+            "fecha_indice": "09-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "119001"
+        },
+        {
+            "fecha_indice": "08-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "117449"
+        },
+        {
+            "fecha_indice": "07-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "116893"
+        },
+        {
+            "fecha_indice": "06-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "116804"
+        },
+        {
+            "fecha_indice": "05-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "116804"
+        },
+        {
+            "fecha_indice": "02-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "116501"
+        },
+        {
+            "fecha_indice": "01-10-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "117192"
+        },
+        {
+            "fecha_indice": "30-09-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "117192"
+        },
+        {
+            "fecha_indice": "29-09-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "116575"
+        },
+        {
+            "fecha_indice": "28-09-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "119001"
+        },
+        {
+            "fecha_indice": "25-09-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "117192"
+        },
+        {
+            "fecha_indice": "24-09-2020",
+            "nom_empresa": "COLCAP",
+            "valor_indice": "117211"
+        }
+    ]
+}

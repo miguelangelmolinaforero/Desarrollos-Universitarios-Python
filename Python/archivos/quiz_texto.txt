@@ -1,0 +1,15 @@
+
+Nombre del Color: rojo
+Valor Hexagecimal: #f00
+Nombre del Color: verde
+Valor Hexagecimal: #0f0
+Nombre del Color: azul
+Valor Hexagecimal: #00f
+Nombre del Color: cyan
+Valor Hexagecimal: #0ff
+Nombre del Color: magenta
+Valor Hexagecimal: #f0f
+Nombre del Color: amarillo
+Valor Hexagecimal: #ff0
+Nombre del Color: negro
+Valor Hexagecimal: #000

@@ -1,0 +1,7 @@
+INTEGRANTES
+
+Miguel Angel Molina Forero
+Edwar Santiago Rojas Cardenas
+Deivi Alejandro Villamil Ramirez
+
+EXTRACCION, TRANSFORMACION, CARGA DE DATOS
